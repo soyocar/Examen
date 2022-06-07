@@ -21,7 +21,7 @@ function mostrarArreglo(numeroArreglo: number[], dimensionArreglo: number) {
 }
 
 function obtenerMenor(numArreglo: number[], dimArreglo: number): number {
-  let menor: number = 0;
+  //let menor: number = 0;
   let indice: number = 0;
   let auxiliar: number = numArreglo[indice];
   for (indice = 1; indice < dimArreglo; indice++) {
@@ -29,8 +29,8 @@ function obtenerMenor(numArreglo: number[], dimArreglo: number): number {
       auxiliar = numArreglo[indice];
     }
   }
-  menor = auxiliar;
-  return menor;
+  // menor = auxiliar;
+  return auxiliar;
 }
 
 let numMenor: number = 0;
